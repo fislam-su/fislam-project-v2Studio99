@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.header{
+    background-image: url(/productlistheader.png);
+    background-size: cover;
+    background-position: right;
+    height: 150px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2em;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.3rem 0.3rem 0.3rem rgba(42, 44, 56, 0.7);
+    font-weight: 570;
+    font-size: 3.8vmax;
+}
+.productlist{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 6rem;
+}
+
+.productname{
+    display: flex;
+    flex-direction: row;
+}
+.search{
+    margin: 3.5rem 2rem 1rem 6.5rem;
+    padding: 1.5rem 7rem 1.5rem 1.5rem;
+    border-right: 0.5px solid rgba(216, 190, 190, 0.397);
+}
+
+.filter{
+    margin: 3rem 1rem 1rem 4rem;
+    padding-right: 3rem;
+}
+.label{
+    display: flex;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+  .recommend{
+      padding: 0 11rem;
+      height: 488px;
+  }
+  .txt{
+      margin-top: 8rem;
+      font-size: 4rem;
+      font-weight: 500;
+      color: rgba(128, 128, 128, 0.805);
+  }
+  .recpic{
+      padding: 6rem 2rem 1em 4rem;
+  }
+  .bigbeach{
+      margin-left: 5.8rem;
+      width: max-content;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+      position: relative;
+      top: -19.7rem;
+      left: -1.8rem;
+      text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.805);
+  }
+  .artblur{
+    width: 100%;
+    height: 488px;
+    z-index: -1;
+    margin-left: -1.5rem;
+  }
+  .artrec{
+    width: 317px;
+    height: 240px;
+    z-index: -1;
+    margin: 0 0 -1rem -3rem;
+  }
+  .blur:hover{
+   filter: brightness(0.2);
+    transition: all 200ms ease-in-out;
+  }
+.row{
+    width: max-content;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(240, 240, 240);
+    position: relative;
+    top: -10.3rem;
+    left: 18%;
+    text-shadow: 0.3rem 0.2rem 0.3rem rgba(31, 66, 143, 0.805);
+    height: 20px;
+}

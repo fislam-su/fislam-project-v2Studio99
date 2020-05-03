@@ -1,0 +1,25 @@
+.container{
+    background-image: url(/loginpgbig.png);
+    background-size: cover;
+}
+.loginwrapper{
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+}
+.logtitle{
+    display: flex;
+    font: 3rem Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+    color: rgb(10, 50, 95);
+    font-weight: 550;
+    margin-left: -4rem;
+}
+.form{
+    margin: 1rem 4rem;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    width: 38rem;
+    height: max-content;
+    padding: 3.5rem;
+}

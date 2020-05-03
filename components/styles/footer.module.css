@@ -1,0 +1,50 @@
+/*
+.footer_suscribe{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+} */
+.supportmedia{
+    margin-left: 4rem;
+}
+.footersocial{
+    display: flex;
+    flex-direction: row;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    padding-right: 5rem;
+}
+.footerwrapper{
+   margin: 2rem auto;
+   padding: 2rem;
+   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+.divider{
+  border: 0.3px solid rgba(0, 0, 0, 0.274);
+  line-height: 10rem;
+  padding: auto 2rem;
+  margin-left: 3rem;
+}
+
+.shopwrap{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.footer_buttons {
+    color: #340000;
+    font-size: 1.3rem;
+}
+.buttons{
+    border-left: 2px solid red; 
+}
+

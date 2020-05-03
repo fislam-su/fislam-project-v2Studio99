@@ -1,0 +1,21 @@
+.container{
+    margin: 2rem auto 5rem auto;
+    padding: 2rem 0 1rem 2rem;
+}
+.desWrapper{
+    margin-left: 2rem;
+}
+.des{
+    margin-top: 2.5rem;
+    color: rgb(114, 114, 114);
+}
+.name{
+    font: 4rem Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: 0.3rem;
+    color: rgb(13, 6, 51);
+}
+.cart{
+    margin-top: 2rem;
+}

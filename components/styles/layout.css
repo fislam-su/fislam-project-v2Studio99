@@ -1,0 +1,14 @@
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background:white;
+    color: #000950;
+    font-family:'Montserrat', sans-serif;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}

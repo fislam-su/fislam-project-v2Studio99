@@ -1,0 +1,49 @@
+.ordercon_header{
+    font-family: 'Didot', 'Times New Roman', Times, serif;
+    font-size: 10rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.confirmedbg{
+    background-image: url(/studio99/public/orderconfirmed.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.product{
+    border: 1px solid red;
+    font-size: 3rem;
+}
+
+.checkoutheader{
+    font-size: 5rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/cart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 1440px;
+    margin-bottom: 5rem;
+}
+.checklist{
+    padding: 2rem;
+    margin-left: 6rem;
+    width: 90%;
+}
+
+.buybutton{
+   margin: 2rem auto;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(128, 128, 128, 0.199);
+}
