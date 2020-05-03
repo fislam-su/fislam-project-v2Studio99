@@ -1,0 +1,8 @@
+{
+    "alias": "studio-99",
+    "dotenv": true,
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+  

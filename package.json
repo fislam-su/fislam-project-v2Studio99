@@ -1,0 +1,36 @@
+{
+  "name": "studio99",
+  "version": "1.0.0",
+  "description": "Studio 99 artist shop ",
+  "main": "home.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Farhan Islam",
+  "license": "MIT ",
+  "dependencies": {
+    "@babel/runtime": "^7.9.6",
+    "@moltin/sdk": "^3.23.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "bootstrap": "^4.4.1",
+    "fs": "0.0.1-security",
+    "gray-matter": "^4.0.2",
+    "next": "^9.3.6",
+    "nprogress": "^0.2.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-burger-menu": "^2.6.13",
+    "react-dom": "^16.13.1",
+    "react-spring": "^8.0.27",
+    "react-stripe-checkout": "^2.6.3",
+    "regenerator-runtime": "^0.13.5",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "babel-plugin-inline-dotenv": "^1.5.0",
+    "eslint": "^6.8.0"
+  }
+}
